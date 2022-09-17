@@ -72,9 +72,7 @@ Az alkalmazás web platformra, hordozható eszközökre (okostelefonok, táblag�
 
 ## 7. Architekturális terv
 
-A rendszer egy HTML, egy CSS és egy JavaScript fájl lesznek. A HTML és CSS fájlok a megjelenítésért felelnek, míg a JavaScript-ben lesznek azok a függvények, melyek a számításokat végzik majd.
-
-Az alábbi kép nagy vonalakban szemlélteti a rendszer működését.
+A rendszert egy HTML, CSS, JavaScript és egy JSON fájl alkotja. A dizájnért felelős fájlok a HTML és a CSS. A JavaScript dolgozza fel a JSON fájlban lévő adatokat, illetve a számitásokhoz szükséges függvényeket.
 
 ![Architekturális terv](/Doc/imgs/Architekturálisterv.PNG)
 
@@ -94,10 +92,15 @@ TODO
 
 ## 11. Telepítési terv
 
-TODO
+### Webes alkalmazás:
+    - A szoftver webes felületéhez csak egy ajánlott böngésző telepítése
+szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver
+nem kell hozzá. A webszerverre közvetlenül az internetről
+kapcsolódnak rá a kliensek.
+
 
 ## 12. Karbantartási terv
 
-TODO
+A karbantartás a weboldal egyszerűsége miatt nem szükséges, kivéve abban az esetben, ha az [SI-mértékegységrendszer](https://hu.wikipedia.org/wiki/SI-m%C3%A9rt%C3%A9kegys%C3%A9grendszer) meg nem változik, illetve a váltó nem lett teljesen letesztelve.
 
 
